@@ -4,7 +4,7 @@
 
 
 
-[![Acessar o Site Publicado](https://img.shields.io/badge/Projeto%20Publicado-Vercel-000000?style=for-the-badge&logo=vercel)](https://ong-maos-solidarias-entrega-ii-2.vercel.app/)
+[![Acessar o Site Publicado](https://img.shields.io/badge/Projeto%20Publicado-Vercel-000000?style=for-the-badge&logo=vercel)]([https://ong-maos-solidarias-entrega-ii-2.vercel.app/](https://ong-maos-solidarias-entrega-iii.vercel.app/))
 
 ---
 
