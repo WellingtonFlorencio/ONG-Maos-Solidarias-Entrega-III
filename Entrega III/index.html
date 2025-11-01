@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início | ONG Mãos Solidárias</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <header>
+  <div class="container header-inner">
+    <a href="index.html" class="logo" aria-label="Ir para o início">
+      <img src="assets/img/logo.jpg" alt="Logo da ONG Mãos Solidárias">
+    </a>
+
+    <!-- Botão hambúrguer com ARIA -->
+    <button id="menu-hamburguer" class="menu-hamburguer" aria-controls="nav-menu" aria-expanded="false" aria-label="Abrir menu principal">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <!-- Navegação principal -->
+    <nav id="nav-menu" class="nav" role="navigation" aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+
+        <!-- Item com submenu (dropdown) -->
+        <li class="nav-item dropdown" aria-haspopup="true">
+          <a href="projetos.html" class="drop-link" aria-expanded="false">Projetos</a>
+          <button class="submenu-toggle" aria-haspopup="true" aria-expanded="false" aria-label="Abrir submenu Projetos">▾</button>
+          <ul class="submenu" role="menu" aria-label="Submenu projetos">
+            <li role="none"><a role="menuitem" href="projetos.html#educacao">Educação</a></li>
+            <li role="none"><a role="menuitem" href="projetos.html#saude">Saúde</a></li>
+            <li role="none"><a role="menuitem" href="projetos.html#digital">Inclusão Digital</a></li>
+          </ul>
+        </li>
+
+        <li><a href="cadastro.html">Cadastre-se</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="grid">
+                    <div class="col-7">
+                        <h1>ONG Mãos Solidárias: Transformando Vidas pela Educação</h1>
+                        <p>Acreditamos que a educação é a ferramenta mais poderosa para a mudança. Nossa missão é promover a inclusão social e criar oportunidades para crianças e jovens em comunidades carentes por todo o Brasil.</p>
+                        <a href="projetos.html" class="button">Conheça Nossos Projetos</a>
+                    </div>
+                    <div class="col-5">
+                        <img src="assets/img/heroi-index.jpeg" alt="Voluntários da ONG Mãos Solidárias sorrindo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <div class="container">
+                <div class="grid">
+                    <div class="col-12">
+                        <h2>Nossos Projetos</h2>
+                        <p>Aqui você poderá ver um resumo dos nossos principais projetos. Estamos a trabalhar para adicionar os cartões responsivos em breve!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ONG Mãos Solidárias. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>
